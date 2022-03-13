@@ -1,0 +1,3 @@
+compilar: make
+compilar e rodar simulador: make sim
+conectar localhost: telnet localhost 5678
