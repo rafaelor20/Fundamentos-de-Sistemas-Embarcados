@@ -62,9 +62,9 @@ Quotation mark ["]  · - · · - ·
 /*  */
 
 #include<stdio.h>
-//#include<conio.h>
+#include<conio.h>
 #include<string.h>
-//#include<process.h>
+#include<process.h>
 
 void main()
 {
@@ -73,11 +73,21 @@ void main()
         fflush(stdin);
         printf("Enter any String to Convert into Morse Code :: ");
         gets(str);
-
+        char temp;
         int j=0;
         for(int i=0;i<=strlen(str);i++)
         {
-                switch(toupper(str[i]))
+                temp = toupper(str[i]);
+                switch(temp)
+                //switch(str[i])
+                //{
+                //case /* constant-expression */:
+                  /* code */
+                  //break;
+                
+                //default:
+                  //break;
+                //}
                 {
                   case 'A':
                   str1[j++]='.';
