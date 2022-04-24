@@ -77,7 +77,7 @@ void main()
         int j=0;
         for(int i=0;i<=strlen(str);i++)
         {
-                temp = toupper(str[i]);
+                temp = str[i];
                 switch(temp)
                 //switch(str[i])
                 //{
@@ -89,6 +89,167 @@ void main()
                   //break;
                 //}
                 {
+                  case 'a':
+                  str1[j++]='.';
+                  str1[j]='-';
+                  break;
+
+                  case 'b':
+                  str1[j++]='-';
+                  str1[j++]='.';
+                  str1[j++]='.';
+                  str1[j]='.';
+                  break;
+
+                  case 'c':
+                  str1[j++]='-';
+                  str1[j++]='.';
+                  str1[j++]='-';
+                  str1[j]='.';
+                  break;
+
+                  case 'd':
+                  str1[j++]='-';
+                  str1[j++]='.';
+                  str1[j]='.';
+                  break;
+
+                  case 'e':
+                  str1[j]='.';
+                  break;
+
+                  case 'f':
+                  str1[j++]='.';
+                  str1[j++]='.';
+                  str1[j++]='-';
+                  str1[j]='.';
+                    break;
+
+                  case 'g':
+                  str1[j++]='-';
+                  str1[j++]='-';
+                  str1[j]='.';
+                  break;
+
+                  case 'h':
+                  str1[j++]='.';
+                  str1[j++]='.';
+                  str1[j++]='.';
+                  str1[j]='.';
+                    break;
+
+                  case 'i':
+                  str1[j++]='.';
+                  str1[j]='.';
+                    break;
+
+                  case 'j':
+                  str1[j++]='.';
+                  str1[j++]='-';
+                  str1[j++]='-';
+                  str1[j]='-';
+                    break;
+
+                  case 'k':
+                  str1[j++]='-';
+                  str1[j++]='.';
+                  str1[j]='-';
+                    break;
+
+                  case 'l':
+                  str1[j++]='.';
+                  str1[j++]='-';
+                  str1[j++]='.';
+                  str1[j]='.';
+                  break;
+
+                  case 'm':
+                  str1[j++]='-';
+                    str1[j]='-';
+                    break;
+
+                  case 'n':
+                  str1[j++]='-';
+                  str1[j]='.';
+                    break;
+
+                case 'o':
+                  str1[j++]='-';
+                  str1[j++]='-';
+                  str1[j]='-';
+                    break;
+
+                case 'p':
+                  str1[j++]='.';
+                  str1[j++]='-';
+                  str1[j++]='-';
+                  str1[j]='.';
+                    break;
+
+                case 'q':
+                  str1[j++]='-';
+                  str1[j++]='-';
+                  str1[j++]='.';
+                  str1[j]='-';
+                    break;
+
+                case 'r':
+                  str1[j++]='.';
+                  str1[j++]='-';
+                  str1[j]='.';
+                    break;
+
+                case 's':
+                  str1[j++]='.';
+                  str1[j++]='.';
+                  str1[j]='.';
+                    break;
+
+                case 't':
+                  str1[j]='-';
+                    break;
+
+                case 'u':
+                  str1[j++]='.';
+                  str1[j++]='.';
+                  str1[j]='-';
+                    break;
+
+                case 'v':
+                  str1[j++]='.';
+                  str1[j++]='.';
+                  str1[j++]='.';
+                  str1[j]='-';
+                    break;
+
+                case 'w':
+                  str1[j++]='.';
+                  str1[j++]='-';
+                  str1[j]='-';
+                    break;
+
+                case 'x':
+                  str1[j++]='-';
+                  str1[j++]='.';
+                  str1[j++]='.';
+                  str1[j]='-';
+                    break;
+
+                case 'y':
+                  str1[j++]='-';
+                  str1[j++]='.';
+                  str1[j++]='-';
+                  str1[j]='-';
+                    break;
+
+                case 'z':
+                  str1[j++]='-';
+                  str1[j++]='-';
+                  str1[j++]='.';
+                  str1[j]='.';
+                    break;
+
+
                   case 'A':
                   str1[j++]='.';
                   str1[j]='-';
@@ -235,7 +396,7 @@ void main()
                   str1[j]='-';
                     break;
 
-                case 'y':
+                case 'Y':
                   str1[j++]='-';
                   str1[j++]='.';
                   str1[j++]='-';
